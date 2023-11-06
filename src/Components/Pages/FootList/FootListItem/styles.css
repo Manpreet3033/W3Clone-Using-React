@@ -1,0 +1,58 @@
+:root{
+    --bs-lightgreen: #D9EEE1;
+    --bs-green: #04AA6D;
+    --bs-teal: #20c997;
+    --bs-black: #282A35;
+    --bs-purple: #9763f6;
+    --bs-bggray: #E7E9EB;
+    --bs-yellow: #FFF4A3;
+    --bs-pink: #FFC0C7;
+    --bs-blue : #96D4D4;
+}
+.blog-item{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#title-text{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bg-smoke{
+    background-color: var(--bs-bggray);
+}
+.bg-pink{
+    background-color: var(--bs-pink);
+}
+.bg-lightgreen{
+    background-color: var(--bs-lightgreen);
+}
+.bg-blue{
+    background-color: var(--bs-blue);
+}
+.bg-yellow{
+    background-color: var(--bs-yellow);
+}
+@media (max-width: 550px){
+    #title-text{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 420px){
+    #title-text{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 750px){
+    #title-text{
+        font-size: 25px;
+    }
+}

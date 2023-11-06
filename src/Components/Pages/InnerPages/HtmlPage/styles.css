@@ -1,0 +1,53 @@
+:root{
+    --bs-lightgreen: #D9EEE1;
+    --bs-green: #04AA6D;
+    --bs-teal: #20c997;
+    --bs-black: #282A35;
+    --bs-purple: #9763f6;
+    --bs-bggray: #E7E9EB;
+    --bs-yellow: #FFF4A3;
+    --bs-pink: #FFC0C7;
+    --bs-blue : #96D4D4;
+}
+.horizontal-wrapper{
+    height: 45px;
+    width: 100%;
+    background-color: var(--bs-black);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.horizontal-wrapper-left{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(1fr,100px));
+    grid-auto-flow: column;
+    max-width: 100%;
+    overflow: hidden;
+}
+.horizontal-wrapper-left a{
+    color: currentColor;
+    text-decoration: none;
+}
+.horizontal-nav{
+    display: block;
+    padding: 10px 16.5px;
+    text-transform: capitalize;
+}
+.horizontal-nav:hover{
+    background-color: black;
+}
+.bars-icon{
+    font-size: 25px;
+    display: none;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 890px){
+
+    .bars-icon{
+        display: flex;
+        font-size: 25px;
+        padding-left: 10px;
+    }
+}

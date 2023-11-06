@@ -1,0 +1,299 @@
+:root{
+    --bs-lightgreen: #D9EEE1;
+    --bs-green: #04AA6D;
+    --bs-teal: #20c997;
+    --bs-black: #282A35;
+    --bs-purple: #9763f6;
+    --bs-bggray: #E7E9EB;
+    --bs-yellow: #FFF4A3;
+    --bs-pink: #FFC0C7;
+    --bs-blue : #96D4D4;
+}
+.foot-page-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: var(--bs-black);
+}
+.foot-page-down4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: var(--bs-black);
+}
+.foot-page-down4 h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+.foot-page-down4 h3{
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.image-2{
+    padding-top: 100px;
+}
+.myIcon-tick{
+    color: var(--bs-lightgreen);
+    padding-right: 10px;
+}
+.image p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.image p span{
+    text-decoration: underline;
+}
+.image p span:hover{
+    color: var(--bs-green);
+}
+.foot-page-down2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: var(--bs-black);
+}
+.foot-page-down h1{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.foot-page-down h3{
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.foot-page-down2 h3{
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    line-height: 2;
+}
+.foot-page-down3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: var(--bs-lightgreen);
+}
+.foot-page-down3 h1{
+    color: var(--bs-black);
+    font-weight: bold;
+    font-size: 60px;
+}
+.foot-page-down3 h3{
+    color: var(--bs-black);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    line-height: 2;
+}
+
+.foot-page-down2 h3 span{
+    color: var(--bs-pink);
+    text-decoration: underline;
+}
+.foot-page-down2 h3 span:hover{
+    color: var(--bs-green);
+}
+.foot-page-down .image{
+    display: flex;
+    flex-direction: column;
+}
+.foot-page-down3 .image img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.foot-page-down .image img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.foot-page-down a{
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#btn-green1{
+    background-color: var(--bs-green);
+    color: white;
+    width: 300px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#btn-green2{
+    background-color: var(--bs-green);
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.myBtn-green3{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn-green3{
+    background-color: var(--bs-green);
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.myBtn-green{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myBtn-green2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.btn-green{
+    background-color: var(--bs-green);
+    color: white;
+}
+
+.btn-yellow{
+    background-color: var(--bs-yellow);
+    color: var(--bs-black);
+}
+
+@media (max-width: 500px){
+    .foot-page-down2 h1{
+        font-size: 40px;
+    }
+    .foot-page-down2 h3{
+        font-size: 15px;
+    }
+    #btn-green1{
+        background-color: var(--bs-green);
+        color: white;
+        width: 150px;
+        border-radius: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn-green2{
+        background-color: var(--bs-green);
+        color: white;
+        width: 200px;
+        border-radius: 50px;
+        align-items: center;
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn-green3{
+        background-color: var(--bs-green);
+        color: white;
+        width: 200px;
+        border-radius: 50px;
+        align-items: center;
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px){
+    .foot-page-down h1{
+        font-size: 40px;
+    }
+    .foot-page-down h3{
+        font-size: 15px;
+    }
+    .foot-page-down a{
+        font-size: 15px;
+    }
+    .foot-page-down3 h1{
+        font-size: 40px;
+    }
+    .foot-page-down3 h3{
+        font-size: 15px;
+    }
+    .foot-page-down3 a{
+        font-size: 15px;
+    }
+    .foot-page-down4 h1{
+        font-size: 40px;
+    }
+    .foot-page-down4 p{
+        font-size: 15px;
+    }
+    .foot-page-down4 a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 500px){
+    .foot-page-down a{
+        width: 100%;
+        font-size: 15px;
+    }
+}

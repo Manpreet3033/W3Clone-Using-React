@@ -1,0 +1,58 @@
+.wrapper-html{
+    padding: 30px;
+}
+.html-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.wrapper-html h1{
+    display: flex;
+    align-items: flex-start;
+    font-size: 60px;
+    padding-bottom: 60px;
+    font-weight: 500;
+}
+.html-btn .bg-green{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.html-btn a{
+    display: block;
+}
+.wrapper-home-html{
+    display: flex;
+    padding-top: 100px;
+}
+.wrapper-html-content{
+    width: 100%;
+}
+.advertisement{
+    font-weight: 500;
+    display: none;
+    align-items: flex-start;
+    padding-top: -100px;
+    width: 200px;
+}
+.page-not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.go-back-btn{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+}
+@media (min-width: 900px){
+    .advertisement{
+        display: flex;
+    }
+}

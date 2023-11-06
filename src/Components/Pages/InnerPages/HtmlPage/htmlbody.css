@@ -1,0 +1,58 @@
+:root{
+    --bs-lightgreen: #D9EEE1;
+    --bs-green: #04AA6D;
+    --bs-teal: #20c997;
+    --bs-black: #282A35;
+    --bs-purple: #9763f6;
+    --bs-bggray: #E7E9EB;
+    --bs-yellow: #FFF4A3;
+    --bs-pink: #FFC0C7;
+    --bs-blue : #96D4D4;
+}
+
+.wrapper-body-left{
+    display: none;
+}
+@media (min-width: 895px){
+    .wrapper-body-html{
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        height: auto;
+    }
+    .wrapper-body-left{
+        background-color: var(--bs-bggray);
+        height: 100%;
+        max-height: calc(100vh - 120px);
+        padding: 15px;
+        overflow-y: auto;
+        display: block;
+    }
+}
+@media (max-width: 895px){
+    .iframe-content-display{
+        width: 100%;
+        height: 400px; /* Set your desired fixed height here */
+        border: none;
+    }
+    .wrapper-body-right{
+        height: 400px;
+    }
+}
+.wrapper-body-heading{
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+}
+.horizontal-menu-item{
+    display: flex;
+    color: var(--bs-black);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.iframe-content-display{
+    width: 100%;
+    height: 100%;
+    border: none;
+}

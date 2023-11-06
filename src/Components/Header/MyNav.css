@@ -1,0 +1,468 @@
+:root{
+   --bs-green: #04AA6D;
+   --bs-teal: #20c997;
+   --bs-black: #282A35;
+   --bs-purple: #9763f6;
+   --bs-bggray: #E7E9EB;
+}
+header{
+    height: 75px;
+    background-color: white;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Logo Code */
+.w3-logo{
+    width: 55px;
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+.w3-logo img{
+    width: 100%;
+}
+
+/* Header Code */
+.header-left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 150%;
+}
+.header-left .menu-btn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-left .menu-btn:hover{
+    background-color:  var(--bs-green);
+    color: white;
+    cursor: pointer;
+}
+.header-left .menu-btn:first-child{
+    padding: 0;
+}
+.header-left a:first-child:hover{
+    background-color: transparent;
+    padding: 0;
+}
+.fa-logo{
+    padding: 0px 4px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.header-right .bg-green{
+    padding: 10px 50px;
+    background-color: var(--bs-green);
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.header-right .bg-green:hover{
+    background-color: var(--bs-green);
+    color: white;
+}
+.header-right .buttons .bg-white{
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.header-right .buttons .bg-white:hover{
+    color: black;
+    background-color: red;
+}
+/* Buttons Class */
+.btn{
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Toggle */
+.toggleLightDark{
+    margin-left: 20px;
+    transform: rotate(180deg);
+}
+.toggleLightDark:hover{
+    color: var(--bs-green);
+}
+
+/* Search Bar */
+.search{
+    display: flex;
+    border: 1px solid black;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+
+.faCircleHalfStroke{
+    color: purple;
+}
+
+.search-bar{
+    margin-left: 10px;
+}
+
+.icon{
+    margin-right: 5px;
+    color: var(--bs-purple);
+}
+
+#space-btn,#exercise-btn,#certificate-btn,#service-btn,#reference-btn,#search-icon,#mobile-menu,#tutorial-btn{
+    display: none;
+}
+
+.mobile-menu-container{
+    background-color: var(--bs-black);
+    display: none;
+    position: relative;
+    z-index: 50;
+    box-sizing: border-box;
+}
+.mobile-menu-container.open{
+    background-color: var(--bs-black);
+    display: block;
+    position: relative;
+    z-index: 50;
+    box-sizing: border-box;
+}
+.mobile-menu-container ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.mobile-menu-container ul a{
+    padding: 40px;
+}
+.mobile-menu-container .fa-logo{
+    margin-left: 5px;
+    color: white;
+}
+.menu-btn-mobile-hidden{
+    display: none;
+}
+
+.menu-btn-mobile{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+
+.mobile-menu-close{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.mobile-menu-close button{
+    border: none;
+    background-color: transparent;
+}
+.mobile-menu-close .close-btn{
+    font-size: 30px;
+    color: white;
+}
+
+.nested-tutorial.open{
+    background-color: var(--bs-black);
+    color: white;
+    position: relative;
+    display: block;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+.nested-tutorial{
+    background-color: var(--bs-black);
+    color: white;
+    position: relative;
+    display: none;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.nested-exercise{
+    background-color: var(--bs-black);
+    color: white;
+    position: relative;
+    display: none;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.nested-exercise.open{
+    background-color: var(--bs-black);
+    color: white;
+    position: relative;
+    display: block;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.nested-certified{
+    background-color: var(--bs-black);
+    color: white;
+    position: relative;
+    display: none;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.nested-certified.open{
+    background-color: var(--bs-black);
+    color: white;
+    position: relative;
+    display: block;
+     height: 100vh;
+    padding-bottom: 50px;
+}
+
+.nested-tutorial-mobile.open{
+    background-color: var(--bs-black);
+    color: white;
+    position: relative;
+    display: flex;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.data-analytic-nav{
+    margin-top: -400px;
+}
+
+.nested-tutorial-mobile{
+    background-color: var(--bs-black);
+    color: white;
+    position: relative;
+    display: none;
+    height: 53.2rem;
+    padding-bottom: 50px;
+}
+
+.nested-tutorial-close{
+    position: absolute;
+    right: 0;
+}
+.nested-tutorial-close button{
+    font-size: 30px;
+    padding: 15px 25px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-right: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.nested-tutorial-close button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.nested-nav-container-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.nested-nav-container-content h1{
+    display: flex;
+    justify-content: flex-start;
+    color: #FFF4A3;
+}
+
+.nested-nav-container-content-data{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px,1fr));
+}
+
+.nested-nav-item h2{
+    color: #FFF4A3;
+    margin-top: 30px;
+}
+
+
+.nested-nav-item a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 550;
+    padding: 5px 8px;
+}
+
+.nested-nav-item{
+    margin-right: 10px;
+}
+
+.nested-nav-item a:hover{
+    background-color: #E7E9EB;
+    color: var(--bs-black);
+    border-radius: 10px;
+    
+}
+
+/********** Mobile Tutorial Menu ***********/
+
+.mobile-menu-Active{
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    margin: 0px 10px;
+    padding: 7px 0px;
+    display: none;
+}
+.mobile-menu-Active .fa-logo{
+    color: black;
+}
+.nested-tutorial-mobile-container{
+    background-color: var(--bs-black);
+    margin-top: 30px;
+    color: black;
+    padding: 5px;
+    position: relative;
+    right: 0px;
+    width:100%;
+}
+.nested-tutorial-mobile-container ul{
+    height: 3700px;
+    background-color: var(--bs-black);
+    margin: 0px -5px;
+}
+.nested-tutorial-mobile-container input{
+    text-align: center;
+    display: inline-flex;   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.nested-tutorial-mobile-container h1{
+    color: #FFF4A3;
+    padding-top: 40px;
+    font-weight: 650;
+    font-size: 35px;
+}
+.nested-tutorial-mobile-container a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 5px 0px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+
+
+
+/************* Responsiveness ******************/
+
+@media all and (min-width: 1429px){
+    #space-btn{
+        display: inline;
+    }
+}
+@media all and (min-width: 1287px){
+    #certificate-btn{
+        display: inline;
+    }
+}
+@media all and (min-width: 1050px){
+    #service-btn{
+        display: inline-flex;
+    }
+}
+@media all and (min-width: 800px){
+    #exercise-btn{
+        display: inline-flex;
+    }
+}
+@media all and (max-width : 950px){
+    #search-icon{
+        display: inline-flex;
+    }
+    #search-b{
+        display: none;
+    }
+}
+
+@media all and (max-width: 675px){
+    #search-b{
+        display: flex;
+    }
+    #search-icon{
+        display: none;
+    }
+}
+@media all and (max-width: 590px){
+    #search-b{
+        display: none;
+    }
+    #search-icon{
+        display: inline-flex;
+    }
+}
+@media all and (max-width : 675px){
+    #mobile-menu{
+     display: inline-flex;
+    }
+ }
+ 
+@media all and (min-width : 676px){
+   #reference-btn,#tutorial-btn{
+    display: inline-flex;
+   }
+}
+@media all and (max-width: 440px){
+    #login-btn{
+        padding: 5px 25px;
+        font-size: 13px;
+    }
+}
+@media all and (min-width: 676px){
+    .mobile-menu-container{
+        display: none;
+    }
+}
+
+@media all and (max-width:1130px){
+    .nested-nav-container-content-data{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(100px,1fr));
+    }
+    .data-analytic-nav{
+        margin-top: 0px;
+    }
+}
+
+@media all and (max-width:440px){
+    .mobile-menu-container.open a{
+        font-size: 20px;
+    }
+    .nested-tutorial-mobile-container h1{
+        font-size: 22px;
+    }
+    .nested-tutorial-mobile-container a{
+        font-size: 14px;
+    }
+}

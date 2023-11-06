@@ -1,0 +1,25 @@
+.blog-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3rem;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+}
+.class{
+    margin-top: -10px;
+    background-color: #282A35;
+}
+
+@media (max-width: 768px){
+    .blog-list{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .blog-list{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
